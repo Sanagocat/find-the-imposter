@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.main_page{
+  background:#24ffff;
+  background-image:url('amongus_background.jpg');
+}
+
+.imposter_button{
+  width:100px;
+  height:100px;
+  background : none;
+  background-image:url('imposter.png');
+  margin: 20px;
+  border-radius: 10px;
+  border:none;
+}
+
+.start_button{
+  width:350px;
+  height:150px;
+  background : none;
+  background-image:url('start.png');
+  margin: 20px;
+  border-radius: 10px;
+  border:none;
+  position:relative;
+  left : 10px;
+  top : -950px;
+}

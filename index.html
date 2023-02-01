@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Game</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class='main_page'>
+
+  <h1 style='background:yellow; width:80%;text-align: center; '>FIND IMPOSTER</h1>
+  <h2 style='background:magenta; width:80%'>REMAIN CHANCES: <input type='text' id='remain_chance'
+      style='width:25px; height:25px;'> </h2>
+  
+  <div>
+    <input type='button' id='imposter_1' class='imposter_button' onclick="buttonFunction('imposter_1')" >
+    <input type='button' id='imposter_2' class='imposter_button' onclick="buttonFunction('imposter_2')">
+    <input type='button' id='imposter_3' class='imposter_button' onclick="buttonFunction('imposter_3')">
+    <br>
+    <input type='button' id='imposter_4' class='imposter_button' onclick="buttonFunction('imposter_4')">
+    <input type='button' id='imposter_5' class='imposter_button' onclick="buttonFunction('imposter_5')">
+    <input type='button' id='imposter_6' class='imposter_button' onclick="buttonFunction('imposter_6')">
+    <br>
+    <input type='button' id='imposter_7' class='imposter_button' onclick="buttonFunction('imposter_7')">
+    <input type='button' id='imposter_8' class='imposter_button' onclick="buttonFunction('imposter_8')">
+    <input type='button' id='imposter_9' class='imposter_button' onclick="buttonFunction('imposter_9')">
+    <br>
+    <input type='button' id='imposter_10' class='imposter_button' onclick="buttonFunction('imposter_10')">
+    <input type='button' id='imposter_11' class='imposter_button' onclick="buttonFunction('imposter_11')">
+    <input type='button' id='imposter_12' class='imposter_button' onclick="buttonFunction('imposter_12')">
+    <br>
+  </div>
+
+  <img src = "title.png" id='title_img' style='position:relative; left:40px; top:-500px; visibility:visable'><br>
+
+  <img src = "youwin.png" id='youwin_img' style='position:relative; left:40px; top:-700px; visibility:hidden'><br>
+
+  <img src = "gameover.png" id='gameover_img'style='position:relative; left:40px; top:-976px; visibility:hidden'><br>
+
+  <input type='button' id='start_button' class='start_button' style='visibility:visible' onclick="start_function()">
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
